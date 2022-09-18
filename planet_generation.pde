@@ -44,12 +44,12 @@ void drawPlanet() {
             float lon = map(j, 0, total, 0, 2*PI);
             
             // Generate an offset by inserting the x/y/z coordinate into a new range.
-            float xoff = map(sin(lat) * cos(lon), -1, 1, 6, maxAmp);
-            float yoff = map(sin(lat) * sin(lon), -1, 1, 6, maxAmp);
-            float zoff = map(cos(lat), -1, 1, 6, maxAmp);
+            float offset_x = map(sin(lat) * cos(lon), -1, 1, 6, maxAmp);
+            float offset_y = map(sin(lat) * sin(lon), -1, 1, 6, maxAmp);
+            float offset_z = map(cos(lat), -1, 1, 6, maxAmp);
             
             //Generate perlin noise using the x/y/z offsets and the current phase.
-            float pNoise = noise(xoff+phase, yoff+phase, zoff+phase);
+            float pNoise = noise(offset_x+phase, offset_y+phase, offset_z+phase);
             float r = map(pNoise, 0, 1, 100, 200);
 
             // Converting the latitude and longitude to x/y/z coordinates
