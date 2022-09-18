@@ -1,4 +1,4 @@
-# Telegram Cryptocurrency Signal Parser
+# Procedural planet generator
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -8,7 +8,7 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-An alorithm written in java using the [Processing IDE](https://processing.org) that procedually generates an earthlike planet using Perlin noise.
+An alorithm written in java using the [Processing IDE](https://processing.org) which procedurally generates an earthlike planet using Perlin noise.
 
 <!-- CONTRIBUTING -->
 ## Contributing
