@@ -38,7 +38,7 @@ The goal is to showcase how one would approach terrain generation using a noise 
 
 ## Showcase
 
-![Screenshot of a planet generated using this tool](https://imgur.com/a/6gKTJEd)
+![Screenshot of a planet generated using this tool](https://i.imgur.com/SnEXulB.png)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
